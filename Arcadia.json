@@ -1,0 +1,594 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Arcadia",
+				"abbreviation": "ARC",
+				"full": "Arcadia",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1614087296,
+		"dateLastModified": 1614087296
+	},
+	"monster": [
+		{
+			"name": "Elekron",
+			"source": "Arcadia",
+			"page": 2,
+			"size": "S",
+			"type": "elemental",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 13,
+			"dex": 20,
+			"con": 16,
+			"int": 5,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Primordial"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Electric Form",
+					"entries": [
+						"The elekron can move through a space as narrow as 1 inch wide without squeezing. In addition, the elekron can enter a hostile creature’s space and stop there. The first time the elekron enters another creature’s space on a turn, that creature takes 5 ({@damage 1d10}) lightning damage. The amount of damage a creature takes increases to 11 ({@dice 2d10}) when the elekron is Medium or larger."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The elekron sheds bright light in a 30-foot radius and dim light in an additional 30 feet."
+					]
+				},
+				{
+					"name": "Lightning Charge",
+					"entries": [
+						"Whenever the elekron is hit with an attack from a metal weapon, its size increases by one category. If there isn’t enough room for the elekron to increase in size, it attains the maximum size possible in the space available. When the elekron is Medium or larger, it can use its action to make two Shock attacks instead of one.  ",
+						"If the elekron starts its turn as a Huge or Gargantuan creature, it releases energy in wild arcs of electricity. Each creature within 30 feet of the elekron must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, and half as much damage on a successful one. The elekron’s size then becomes Small."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"Also often referred to as “lightning in a bottle,” an elekron crackles with pure energy. Elekrons are most closely related to fire elementals, but unlike their flame-based cousins, elekrons have the incredible ability to consume raw energy from their environment and deal staggering amounts of damage."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HQvjjie.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/IKIgm9g.png",
+			"traitTags": [
+				"Illumination"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Comburo",
+			"source": "Arcadia",
+			"page": 2,
+			"size": "M",
+			"type": "elemental",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 45",
+				"average": 127
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"con": "+6",
+				"str": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Primordial"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the comburo dies, it explodes in a fiery burst. Each creature within 15 feet of the comburo must succeed on a {@dc 14} Dexterity saving throw or take 14 ({@damage 4d6}) fire damage."
+					]
+				},
+				{
+					"name": "Ductile Form",
+					"entries": [
+						"The comburo can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Explosive Reactivity",
+					"entries": [
+						"A creature that hits the comburo with an attack while within 15 feet of it must make a {@dc 14} Dexterity saving throw, taking 7 ({@damage 2d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The comburo sheds bright light in a 15-foot radius and dim light in an additional 15 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The comburo makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 ({@damage 1d6}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Volatile Burst {@recharge}",
+					"entries": [
+						"The comburo launches a hailstorm of explosive projectiles that land at three different points the comburo can see within 120 feet of itself. Each creature in a 15-foot-radius sphere centered on each point must make a {@dc 14} Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage and is knocked {@condition prone} on a failure. On a success, a creature takes half as much damage and is not knocked {@condition prone}. The spheres spread around corners. A creature in the area of more than one explosion point is affected only once. This ability damages objects in the area and ignites flammable objects that aren’t being worn or carried."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Comburos are extremely volatile elementals composed of metals like lithium and potassium. Cracks in their dull, metallic grey exteriors reveal a searing explosive fire at their cores. This fire takes on a characteristic hue depending on the primary composition of the comburo, with flames ranging from deep purple to brilliant blue."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/ORuVuyj.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/3Ag3QnL.png",
+			"traitTags": [
+				"Death Burst",
+				"Illumination"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Conducere",
+			"source": "Arcadia",
+			"page": 2,
+			"size": "L",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d12 + 60",
+				"average": 138
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 20,
+			"int": 8,
+			"wis": 6,
+			"cha": 10,
+			"save": {
+				"con": "+8",
+				"str": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"resist": [
+				{
+					"resist": [
+						"fire",
+						"lightning",
+						"radiant"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Primordial"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Ductile Form",
+					"entries": [
+						"The conducere can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Flexible",
+					"entries": [
+						"The conducere has advantage on Dexterity saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The conducere makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 30 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Energy Conductor",
+					"entries": [
+						"When the conducere takes damage from a spell or magical effect, it can use its reaction to redirect that magical energy to another creature. The conducere takes no damage and instead chooses a target within 30 feet of itself. The target must make a {@dc 16} Dexterity saving throw. On a failure, the target takes the damage originally intended for the conducere; this damage is equal to the amount of damage the conducere would have taken had it not used its reaction in this way. On a success, the target only takes half this damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"forest",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Made of precious metals like gold and copper, conduceres are known for their incredibly flexible nature and ability to transfer energy across long distances. Conduceres are the most docile of the nova elementals, and many mages keep a conducere in their study purely for its glittering aesthetic."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/vDRZcPb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/nCnubi6.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Noxa",
+			"source": "Arcadia",
+			"page": 2,
+			"size": "L",
+			"type": "elemental",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "14d12 + 42",
+				"average": 133
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 16,
+			"int": 6,
+			"wis": 10,
+			"cha": 5,
+			"save": {
+				"dex": "+8",
+				"wis": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Primordial"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Faultless Stability",
+					"entries": [
+						"The noxa is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Fluorescence",
+					"entries": [
+						"When the noxa is subjected to fire or lightning damage, it begins to glow. Until the start of its next turn, the noxa sheds bright light in a 15-foot radius and dim light in an additional 15 feet. While glowing in this manner, the noxa cannot benefit from being {@condition invisible}."
+					]
+				},
+				{
+					"name": "Gaseous Form",
+					"entries": [
+						"The noxa can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Invisible",
+					"entries": [
+						"The noxa is {@condition invisible}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The noxa makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Asphyxiation",
+					"entries": [
+						"The noxa chooses one creature within its space and floods the creature’s lungs with poisonous gas. The creature must make a {@dc 15} Constitution saving throw. On a failure, it takes 27 ({@damage 6d8}) poison damage, is {@condition restrained}, and begins suffocating. On a success, it takes half as much damage, is not {@condition restrained}, and does not begin suffocating. If the targeted creature is already suffocating when the elemental uses this action, the creature has disadvantage on the saving throw. A {@condition restrained} and suffocating creature can repeat this saving throw at the start of each of its turns, ending both effects on a success."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"forest",
+				"mountain",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Composed of toxic, odorless gases like helium and neon, noxas are some of the most dangerous nova elementals. The",
+					"combination of their invisible presence and poisonous nature means they can easily suffocate a target before anyone notices something is wrong. However, more whimsical mages have been known to trap noxas in glass tubes and feed them energy to create softly glowing fluorescent lamps of various colors."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/OAd4JEP.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/xpycMdr.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		}
+	]
+}
